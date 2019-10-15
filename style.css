@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+
+body {
+  font-family: Open Sans, sans-serif;
+  background-color: #f9fafc;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 18px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #69696a;
+}
+
+a.longbutton {
+  text-decoration: none;
+  color: #fff;
+  background-color: black;
+  text-align: center;
+  border-radius: 25px;
+  padding: 5px;
+}
+
+.longbutton:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+.longbutton:visited {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #69696a;
+}
+
+p {
+  font-size: 12px;
+}
